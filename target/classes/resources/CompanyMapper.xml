@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.myssm.core.mapper.CompanyMapper">
+    <select id="getCompanyById" resultType ="com.myssm.core.pojo.Company">
+        select * from company where id = ?
+    </select>
+</mapper>
